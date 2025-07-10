@@ -69,12 +69,16 @@ const commandHandlers = {
                 action_id: 'plan_select',
                 options: [
                   {
-                    text: { type: 'plain_text', text: '5 Hours Weekly' },
-                    value: '5_hours_weekly',
+                    text: { type: 'plain_text', text: 'AI Assesment Discovery & Blueprint' },
+                    value: 'AI Assesment Discovery & Blueprint',
                   },
                   {
-                    text: { type: 'plain_text', text: '10 Hours Weekly' },
-                    value: '10_hours_weekly',
+                    text: { type: 'plain_text', text: 'AI Strategist (Part-time)' },
+                    value: 'AI Strategist (Part-time)',
+                  },
+                  {
+                    text: { type: 'plain_text', text: 'Al Strategist (Full-time)' },
+                    value: 'Al Strategist (Full-time)',
                   },
                 ],
               },
