@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  slack-bolt-onboarding:
+    build: .
+    container_name: slack-bolt-onboarding
+    env_file:
+      - .env
+    restart: unless-stopped
+    # Uncomment if you want to map a port for health checks or HTTP mode
+    # ports:
+    #   - "3000:3000" `

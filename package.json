@@ -1,0 +1,31 @@
+{
+  "name": "slack-bolt-onboarding",
+  "version": "1.0.0",
+  "description": "Slack bot for agency onboarding with modular architecture",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "slack",
+    "bot",
+    "bolt",
+    "onboarding",
+    "webhook"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@slack/bolt": "^4.4.0",
+    "axios": "^1.10.0",
+    "dotenv": "^17.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
