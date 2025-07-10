@@ -79,6 +79,16 @@ const commandHandlers = {
                 ],
               },
             },
+            {
+              type: 'input',
+              block_id: 'share_email_access',
+              label: { type: 'plain_text', text: 'Share Email Access to' },
+              element: {
+                type: 'plain_text_input',
+                action_id: 'email_access_input',
+                placeholder: { type: 'plain_text', text: 'Enter email(s) or names' },
+              },
+            },
           ],
         },
       });

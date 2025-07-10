@@ -10,6 +10,7 @@ const viewHandlers = {
     const website = view.state.values.website_url.website_input.value;
     const consultant = view.state.values.assigned_consultant.consultant_select.selected_option.value;
     const plan = view.state.values.active_plan.plan_select.selected_option.value;
+    const email_access = view.state.values.share_email_access.email_access_input.value;
 
     const payload = {
       contact,
@@ -17,6 +18,7 @@ const viewHandlers = {
       website,
       consultant,
       plan,
+      email_access,
       user: body.user.id,
     };
     console.log('Form submitted. Data to send to webhook:');
