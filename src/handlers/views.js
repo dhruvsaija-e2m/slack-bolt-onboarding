@@ -25,12 +25,12 @@ const viewHandlers = {
 
     // Send data to webhook
     try {
-      const WEBHOOK_URL = process.env.WEBHOOK_URL; // e.g., 'https://n8n.sitepreviews.dev/webhook/a389b096-8474-4073-aef7-a4c818d78df5'
+      const WEBHOOK_URL = process.env.WEBHOOK_URL; 
       const response = await webhookService.sendToWebhook(payload);
       console.log('Webhook POST success. Status:', response.status);
       
       // Post confirmation to a channel (replace 'onboarding-notifications' with your channel ID or name)
-      const NOTIFY_CHANNEL = process.env.NOTIFY_CHANNEL; // e.g., 'C094ZC0AAKF'
+      const NOTIFY_CHANNEL = process.env.NOTIFY_CHANNEL; 
       await client.chat.postMessage({
         channel: NOTIFY_CHANNEL,
         text: `New onboarding submitted by <@${body.user.id}>.`,

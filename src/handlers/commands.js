@@ -51,11 +51,11 @@ const commandHandlers = {
                 options: [
                   {
                     text: { type: 'plain_text', text: 'Dev Pandya' },
-                    value: 'dev_pandya',
+                    value: 'Dev Pandya',
                   },
                   {
-                    text: { type: 'plain_text', text: 'Ishita Thakker' },
-                    value: 'ishita_thakker',
+                    text: { type: 'plain_text', text: 'Ishita Thakkar' },
+                    value: 'Ishita Thakkar',
                   },
                 ],
               },
@@ -85,6 +85,7 @@ const commandHandlers = {
             },
             {
               type: 'input',
+              optional: true,
               block_id: 'share_email_access',
               label: { type: 'plain_text', text: 'Share Email Access to' },
               element: {
