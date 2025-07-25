@@ -54,8 +54,8 @@ const commandHandlers = {
                     value: 'Dev Pandya',
                   },
                   {
-                    text: { type: 'plain_text', text: 'Ishita Thakkar' },
-                    value: 'Ishita Thakkar',
+                    text: { type: 'plain_text', text: 'Manali Sharma' },
+                    value: 'Manali Sharma',
                   },
                 ],
               },
